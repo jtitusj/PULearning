@@ -1,0 +1,32 @@
+name: mlpipeline
+# conda env create -f environment.yml
+# to remove, simply do conda env remove -n mlpipeline
+channels:
+    - conda-forge
+    - defaults
+    - anaconda
+    - pytorch
+dependencies:
+    - python=3.7
+    - pip
+    - numpy
+    - pandas
+    - matplotlib
+    - seaborn
+    - statsmodels
+    - lmfit
+    - xgboost
+    - scikit-learn
+    - jupyter
+    - jupyter_contrib_nbextensions
+    - autopep8
+    - pytorch
+    - torchvision
+    - tensorboard
+    - tensorflow
+    - pandas-profiling
+    - tqdm
+    - pip:
+      - lightgbm
+      - keras
+      - opencv-contrib-python
