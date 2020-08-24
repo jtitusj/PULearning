@@ -1,4 +1,4 @@
-name: mlpipeline
+name: pulearn
 # conda env create -f environment.yml
 # to remove, simply do conda env remove -n mlpipeline
 channels:
@@ -26,6 +26,7 @@ dependencies:
     - tensorflow
     - pandas-profiling
     - tqdm
+    - rise
     - pip:
       - lightgbm
       - keras

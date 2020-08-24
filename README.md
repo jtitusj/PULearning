@@ -1,6 +1,6 @@
-# Machine Learning Pipeline
+# Positive-Unlabeled (PU) Learning
 
-A collection of templates for performing machine learning tasks.
+Repository for explorations on PU Learning
 
 ## Installing the Environment
 To install the environment, type the following in the terminal:
